@@ -8,6 +8,8 @@ import Logo from '@/components/icons/Logo';
 import { updateUserName } from '@/utils/supabase-client';
 import { useUser } from '@/utils/useUser';
 
+//redeploy
+
 const SignUp = () => {
   const [user, setUser] = useState(null);
   const [email, setEmail] = useState('');
